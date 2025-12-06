@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TaskManagerApiApplication<task_manager_api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "solodev.jchristy.task_manager_api.TaskManagerApiApplication",
+            "projectName": "task_manager_api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
