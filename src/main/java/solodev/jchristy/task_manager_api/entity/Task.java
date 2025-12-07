@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tasks")
+@Table(name = "task")
 public class Task {
 
     @Id
@@ -17,7 +17,7 @@ public class Task {
     @Column(nullable = true)
     private String description;
 
-    @Column(nullable = true)
+    @Column(nullable = false, columnDefinition = "BOOLEAN DEFAULT FALSE")
     private boolean completed;
     
     @Column(nullable = true)

@@ -1,1 +1,5 @@
-TaskController.class
+solodev\jchristy\task_manager_api\repository\TaskRepository.class
+solodev\jchristy\task_manager_api\controller\TaskController.class
+solodev\jchristy\task_manager_api\TaskManagerApiApplication.class
+solodev\jchristy\task_manager_api\entity\Task.class
+solodev\jchristy\task_manager_api\service\TaskService.class
